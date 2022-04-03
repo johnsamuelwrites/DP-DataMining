@@ -24,8 +24,7 @@ jobs:
           python -m pip install -r requirements.txt
       - name: Build the JupyterLite site
         run: |
-          cp README.md data installation.ipynb Projet.md TP1 TP2 TP3 images LICENSE queries
-          jupyter lite build --contents content
+          jupyter lite build 
       - name: Upload (dist)
         uses: actions/upload-artifact@v2
         with:
