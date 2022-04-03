@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-04-03T07:02:40.176234Z",
+      "format": null,
+      "last_modified": "2022-04-03T07:02:38.236207Z",
+      "mimetype": null,
+      "name": "tp3.ipynb",
+      "path": "TP3/tp3.ipynb",
+      "size": 1284124,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2022-04-03T07:02:40.172234Z",
+  "format": "json",
+  "last_modified": "2022-04-03T07:02:40.172234Z",
+  "mimetype": null,
+  "name": "TP3",
+  "path": "TP3",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
