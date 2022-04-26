@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-04-26T10:39:59.861406Z",
+      "created": "2022-04-26T10:51:22.541462Z",
       "format": null,
-      "last_modified": "2022-04-26T10:39:58.425337Z",
+      "last_modified": "2022-04-26T10:51:20.765442Z",
       "mimetype": null,
       "name": "chemical_compound.rq",
       "path": "queries/chemical_compound.rq",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-04-26T10:39:59.861406Z",
+      "created": "2022-04-26T10:51:22.541462Z",
       "format": null,
-      "last_modified": "2022-04-26T10:39:58.425337Z",
+      "last_modified": "2022-04-26T10:51:20.765442Z",
       "mimetype": null,
       "name": "articles.rq",
       "path": "queries/articles.rq",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-04-26T10:39:59.861406Z",
+  "created": "2022-04-26T10:51:22.541462Z",
   "format": "json",
-  "last_modified": "2022-04-26T10:39:59.861406Z",
+  "last_modified": "2022-04-26T10:51:22.541462Z",
   "mimetype": null,
   "name": "queries",
   "path": "queries",
