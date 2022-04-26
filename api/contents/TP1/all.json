@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-04-26T09:03:23.697587Z",
+      "created": "2022-04-26T09:05:06.889680Z",
       "format": null,
-      "last_modified": "2022-04-26T09:03:21.941585Z",
+      "last_modified": "2022-04-26T09:05:05.517616Z",
       "mimetype": "text/plain",
       "name": "bonjour.txt",
       "path": "TP1/bonjour.txt",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-04-26T09:03:23.697587Z",
+      "created": "2022-04-26T09:05:06.889680Z",
       "format": null,
-      "last_modified": "2022-04-26T09:03:21.941585Z",
+      "last_modified": "2022-04-26T09:05:05.517616Z",
       "mimetype": null,
       "name": "tp1.ipynb",
       "path": "TP1/tp1.ipynb",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-04-26T09:03:23.697587Z",
+  "created": "2022-04-26T09:05:06.889680Z",
   "format": "json",
-  "last_modified": "2022-04-26T09:03:23.697587Z",
+  "last_modified": "2022-04-26T09:05:06.889680Z",
   "mimetype": null,
   "name": "TP1",
   "path": "TP1",
