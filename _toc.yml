@@ -1,10 +1,9 @@
 format: jb-book
-root: intro
+root: README
 parts:
 - caption: Sujets de travaux pratiques et projet
   numbered: true
   chapters:
   - file: TP1/tp1.ipynb
-  - file: TP2/tp2.ipynb)
+  - file: TP2/tp2.ipynb
   - file: TP3/tp3.ipynb
-
