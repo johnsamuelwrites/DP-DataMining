@@ -331,14 +331,10 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="nn">Input In [1],</span> in <span class="ni">&lt;cell line: 1&gt;</span><span class="nt">()</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">numpy</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">sklearn</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">pandas</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;numpy&#39;
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1.22.3
+1.0.2
+1.4.2
+3.5.1
 </pre></div>
 </div>
 </div>
@@ -361,16 +357,44 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="nn">Input In [2],</span> in <span class="ni">&lt;cell line: 1&gt;</span><span class="nt">()</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">dataset</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s2">&quot;../data/pl.csv&quot;</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;names&#39;</span><span class="p">:</span> <span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">),</span> 
-<span class="g g-Whitespace">      </span><span class="mi">3</span>        <span class="s1">&#39;formats&#39;</span><span class="p">:</span> <span class="p">(</span><span class="s1">&#39;U100&#39;</span><span class="p">,</span> <span class="s1">&#39;i4&#39;</span><span class="p">)},</span> 
-<span class="g g-Whitespace">      </span><span class="mi">4</span>         <span class="n">skiprows</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;UTF-8&quot;</span><span class="p">)</span> 
-<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="nb">print</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;numpy&#39;
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[(&#39;ENIAC coding system&#39;, 1943) (&#39;ENIAC Short Code&#39;, 1946)
+ (&#39;Von Neumann and Goldstine graphing system&#39;, 1946)
+ (&#39;ARC Assembly&#39;, 1947) (&#39;Plankalkül&#39;, 1948) (&#39;CPC Coding scheme&#39;, 1948)
+ (&#39;Curry notation system&#39;, 1948) (&#39;Short Code&#39;, 1949)
+ (&#39;assembly language&#39;, 1949) (&#39;Short Code&#39;, 1950) (&#39;G-code&#39;, 1950)
+ (&#39;Birkbeck Assembler&#39;, 1950) (&#39;Superplan&#39;, 1951) (&#39;ALGAE&#39;, 1951)
+ (&#39;Intermediate Programming Language&#39;, 1951)
+ (&#39;Regional Assembly Language&#39;, 1951)
+ (&#39;Boehm unnamed coding system&#39;, 1951) (&#39;Klammerausdrücke&#39;, 1951)
+ (&#39;OMNIBAC Symbolic Assembler&#39;, 1951) (&#39;Stanislaus&#39;, 1951)
+ (&#39;Whirlwind assembler&#39;, 1951) (&#39;Rochester assembler&#39;, 1951)
+ (&#39;Sort Merge Generator&#39;, 1951) (&#39;autocode&#39;, 1952) (&#39;A-0 System&#39;, 1952)
+ (&#39;Editing Generator&#39;, 1952) (&#39;COMPOOL&#39;, 1952) (&#39;Speedcoding&#39;, 1953)
+ (&#39;READ/PRINT&#39;, 1953) (&#39;Fortran&#39;, 1954) (&#39;ARITH-MATIC&#39;, 1954)
+ (&#39;autocode&#39;, 1954) (&#39;Laning and Zierler system&#39;, 1954)
+ (&#39;MATH-MATIC&#39;, 1954) (&#39;MATRIX MATH&#39;, 1954) (&#39;FLOW-MATIC&#39;, 1955)
+ (&#39;PACT&#39;, 1955) (&#39;BACAIC&#39;, 1955) (&#39;Freiburger Code&#39;, 1955)
+ (&#39;Sequentielle Formelübersetzung&#39;, 1955) (&#39;Internal Translator&#39;, 1955)
+ (&#39;PRINT&#39;, 1955) (&#39;Information Processing Language&#39;, 1956)
+ (&#39;FORTRAN for the IBM 704&#39;, 1956) (&#39;Fortran&#39;, 1957) (&#39;COMTRAN&#39;, 1957)
+ (&#39;GEORGE&#39;, 1957) (&#39;UNICODE&#39;, 1957) (&#39;ALGOL 58&#39;, 1958) (&#39;Lisp&#39;, 1958)
+ (&#39;ALGOL&#39;, 1958) (&#39;FORTRAN III&#39;, 1958) (&#39;FORTRAN II&#39;, 1958)
+ (&#39;JOVIAL&#39;, 1959) (&#39;TRAC&#39;, 1959) (&#39;COBOL&#39;, 1959) (&#39;MAD&#39;, 1959)
+ (&#39;Lisp&#39;, 1959) (&#39;FACT&#39;, 1959) (&#39;COBOL&#39;, 1960) (&#39;ALCOR&#39;, 1960)
+ (&#39;ALGOL 60&#39;, 1960) (&#39;FORTRAN IV&#39;, 1961) (&#39;TECO&#39;, 1962) (&#39;SNOBOL&#39;, 1962)
+ (&#39;APL&#39;, 1962) (&#39;Simula&#39;, 1962) (&#39;CORC&#39;, 1962) (&#39;CPL&#39;, 1963)
+ (&#39;JOSS&#39;, 1963) (&#39;P′′&#39;, 1964) (&#39;Report Program Generator&#39;, 1964)
+ (&#39;TRAC&#39;, 1964) (&#39;BASIC&#39;, 1964) (&#39;COWSEL&#39;, 1964) (&#39;MARK IV&#39;, 1964)
+ (&#39;MIMIC&#39;, 1964) (&#39;PL/I&#39;, 1964) (&#39;Speakeasy&#39;, 1964) (&#39;IBM RPG II&#39;, 1965)
+ (&#39;Atlas Autocode&#39;, 1965) (&#39;TELCOMP&#39;, 1965) (&#39;Euler&#39;, 1966)
+ (&#39;ISWIM&#39;, 1966) (&#39;ALGOL W&#39;, 1966)
+ (&#39;Massachusetts General Hospital Utility Multi-Programming System&#39;, 1966)
+ (&#39;JOSS&#39;, 1966) (&#39;Coral 66&#39;, 1966) (&#39;BCPL&#39;, 1966) (&#39;APL&#39;, 1966)
+ (&#39;FORTRAN 66&#39;, 1966)
+ (&#39;Massachusetts General Hospital Utility Multi-Programming System&#39;, 1967)
+ (&#39;Hop&#39;, 1967) (&#39;XPL&#39;, 1967) (&#39;Interlisp&#39;, 1967) (&#39;BCPL&#39;, 1967)
+ (&#39;Simula&#39;, 1967) (&#39;Space Programming Language&#39;, 1967) (&#39;PILOT&#39;, 1968)
+ (&#39;ALGOL 68&#39;, 1968)]
 </pre></div>
 </div>
 </div>
@@ -402,16 +426,44 @@ Avant de continuer, examinez en profondeur
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="nn">Input In [3],</span> in <span class="ni">&lt;cell line: 1&gt;</span><span class="nt">()</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">dataset</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s2">&quot;../data/pl.tsv&quot;</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;names&#39;</span><span class="p">:</span> <span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">),</span> 
-<span class="g g-Whitespace">      </span><span class="mi">3</span>        <span class="s1">&#39;formats&#39;</span><span class="p">:</span> <span class="p">(</span><span class="s1">&#39;U100&#39;</span><span class="p">,</span> <span class="s1">&#39;i4&#39;</span><span class="p">)},</span> 
-<span class="g g-Whitespace">      </span><span class="mi">4</span>         <span class="n">skiprows</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;UTF-8&quot;</span><span class="p">)</span> 
-<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="nb">print</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;numpy&#39;
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[(&#39;ENIAC coding system&#39;, 1943) (&#39;ENIAC Short Code&#39;, 1946)
+ (&#39;Von Neumann and Goldstine graphing system&#39;, 1946)
+ (&#39;ARC Assembly&#39;, 1947) (&#39;Plankalkül&#39;, 1948) (&#39;CPC Coding scheme&#39;, 1948)
+ (&#39;Curry notation system&#39;, 1948) (&#39;Short Code&#39;, 1949)
+ (&#39;assembly language&#39;, 1949) (&#39;Short Code&#39;, 1950)
+ (&#39;Birkbeck Assembler&#39;, 1950) (&#39;G-code&#39;, 1950) (&#39;Superplan&#39;, 1951)
+ (&#39;ALGAE&#39;, 1951) (&#39;Intermediate Programming Language&#39;, 1951)
+ (&#39;Regional Assembly Language&#39;, 1951)
+ (&#39;Boehm unnamed coding system&#39;, 1951) (&#39;Klammerausdrücke&#39;, 1951)
+ (&#39;OMNIBAC Symbolic Assembler&#39;, 1951) (&#39;Stanislaus&#39;, 1951)
+ (&#39;Whirlwind assembler&#39;, 1951) (&#39;Rochester assembler&#39;, 1951)
+ (&#39;Sort Merge Generator&#39;, 1951) (&#39;Editing Generator&#39;, 1952)
+ (&#39;COMPOOL&#39;, 1952) (&#39;autocode&#39;, 1952) (&#39;A-0 System&#39;, 1952)
+ (&#39;READ/PRINT&#39;, 1953) (&#39;Speedcoding&#39;, 1953) (&#39;Fortran&#39;, 1954)
+ (&#39;MATRIX MATH&#39;, 1954) (&#39;autocode&#39;, 1954) (&#39;ARITH-MATIC&#39;, 1954)
+ (&#39;Laning and Zierler system&#39;, 1954) (&#39;MATH-MATIC&#39;, 1954)
+ (&#39;FLOW-MATIC&#39;, 1955) (&#39;BACAIC&#39;, 1955) (&#39;Freiburger Code&#39;, 1955)
+ (&#39;Sequentielle Formelübersetzung&#39;, 1955) (&#39;Internal Translator&#39;, 1955)
+ (&#39;PRINT&#39;, 1955) (&#39;PACT&#39;, 1955) (&#39;Information Processing Language&#39;, 1956)
+ (&#39;FORTRAN for the IBM 704&#39;, 1956) (&#39;Fortran&#39;, 1957) (&#39;UNICODE&#39;, 1957)
+ (&#39;COMTRAN&#39;, 1957) (&#39;GEORGE&#39;, 1957) (&#39;ALGOL 58&#39;, 1958) (&#39;Lisp&#39;, 1958)
+ (&#39;FORTRAN III&#39;, 1958) (&#39;FORTRAN II&#39;, 1958) (&#39;ALGOL&#39;, 1958)
+ (&#39;JOVIAL&#39;, 1959) (&#39;TRAC&#39;, 1959) (&#39;COBOL&#39;, 1959) (&#39;Lisp&#39;, 1959)
+ (&#39;MAD&#39;, 1959) (&#39;FACT&#39;, 1959) (&#39;COBOL&#39;, 1960) (&#39;COBOL&#39;, 1960)
+ (&#39;ALGOL 60&#39;, 1960) (&#39;ALCOR&#39;, 1960) (&#39;FORTRAN IV&#39;, 1961) (&#39;SNOBOL&#39;, 1962)
+ (&#39;TECO&#39;, 1962) (&#39;Simula&#39;, 1962) (&#39;APL&#39;, 1962) (&#39;CORC&#39;, 1962)
+ (&#39;CPL&#39;, 1963) (&#39;JOSS&#39;, 1963) (&#39;P′′&#39;, 1964)
+ (&#39;Report Program Generator&#39;, 1964) (&#39;TRAC&#39;, 1964) (&#39;BASIC&#39;, 1964)
+ (&#39;COWSEL&#39;, 1964) (&#39;PL/I&#39;, 1964) (&#39;MARK IV&#39;, 1964) (&#39;MIMIC&#39;, 1964)
+ (&#39;Speakeasy&#39;, 1964) (&#39;IBM RPG II&#39;, 1965) (&#39;Atlas Autocode&#39;, 1965)
+ (&#39;TELCOMP&#39;, 1965) (&#39;Euler&#39;, 1966) (&#39;ISWIM&#39;, 1966) (&#39;ALGOL W&#39;, 1966)
+ (&#39;JOSS&#39;, 1966)
+ (&#39;Massachusetts General Hospital Utility Multi-Programming System&#39;, 1966)
+ (&#39;BCPL&#39;, 1966) (&#39;Coral 66&#39;, 1966) (&#39;FORTRAN 66&#39;, 1966) (&#39;APL&#39;, 1966)
+ (&#39;Hop&#39;, 1967)
+ (&#39;Massachusetts General Hospital Utility Multi-Programming System&#39;, 1967)
+ (&#39;Space Programming Language&#39;, 1967) (&#39;BCPL&#39;, 1967) (&#39;Interlisp&#39;, 1967)
+ (&#39;Simula&#39;, 1967) (&#39;XPL&#39;, 1967) (&#39;PILOT&#39;, 1968)]
 </pre></div>
 </div>
 </div>
@@ -452,14 +504,20 @@ Consultez <a class="reference external" href="https://pandas.pydata.org/pandas-d
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="nn">Input In [4],</span> in <span class="ni">&lt;cell line: 1&gt;</span><span class="nt">()</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">from</span> <span class="nn">pandas</span> <span class="kn">import</span> <span class="n">json_normalize</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">json</span>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>                                languageLabel  year
+0                         ENIAC coding system  1943
+1                            ENIAC Short Code  1946
+2   Von Neumann and Goldstine graphing system  1946
+3                                ARC Assembly  1947
+4                                  Plankalkül  1948
+..                                        ...   ...
+95                                       BCPL  1967
+96                                  Interlisp  1967
+97                                     Simula  1967
+98                                        XPL  1967
+99                                      PILOT  1968
 
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;pandas&#39;
+[100 rows x 2 columns]
 </pre></div>
 </div>
 </div>
@@ -498,16 +556,20 @@ des sources de données externes utilisant des interfaces d’interrogation spé
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="nn">Input In [5],</span> in <span class="ni">&lt;cell line: 3&gt;</span><span class="nt">()</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">urllib.request</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">json</span>
-<span class="ne">----&gt; </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://query.wikidata.org/sparql?query=SELECT</span><span class="si">%20%</span><span class="s2">3FlanguageLabel%20(YEAR(</span><span class="si">%3F</span><span class="s2">inception)</span><span class="si">%20a</span><span class="s2">s</span><span class="si">%20%</span><span class="s2">3Fyear)%0AWHERE%0A%7B%0A</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%23i</span><span class="s2">nstances</span><span class="si">%20o</span><span class="s2">f%20programming</span><span class="si">%20la</span><span class="s2">nguage%0A</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%3F</span><span class="s2">language%20wdt%3AP31%20wd%3AQ9143%3B%0A</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%20%</span><span class="s2">20wdt%3AP571</span><span class="si">%20%</span><span class="s2">3Finception%3B%0A</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%20%</span><span class="s2">20</span><span class="si">%20%</span><span class="s2">20rdfs%3Alabel</span><span class="si">%20%</span><span class="s2">3FlanguageLabel.%0A</span><span class="si">%20%</span><span class="s2">20FILTER(lang(</span><span class="si">%3F</span><span class="s2">languageLabel)</span><span class="si">%20%</span><span class="s2">3D</span><span class="si">%20%</span><span class="s2">22en%22)%0A%7D%0AORDER%20BY</span><span class="si">%20%</span><span class="s2">3Fyear%0ALIMIT%20100&amp;format=json&quot;</span>
-<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="n">response</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>    year                              languageLabel
+0   1942                                 Plankalkül
+1   1943                        ENIAC coding system
+2   1946                           ENIAC Short Code
+3   1946  Von Neumann and Goldstine graphing system
+4   1947                               ARC Assembly
+..   ...                                        ...
+95  1967                                       Logo
+96  1967                 Space Programming Language
+97  1968                                      FOCAL
+98  1968                                      PILOT
+99  1968                                      Refal
 
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;pandas&#39;
+[100 rows x 2 columns]
 </pre></div>
 </div>
 </div>
@@ -524,13 +586,33 @@ des sources de données externes utilisant des interfaces d’interrogation spé
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="nn">Input In [6],</span> in <span class="ni">&lt;cell line: 1&gt;</span><span class="nt">()</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">grouped</span> <span class="o">=</span> <span class="n">dataframe</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;year&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="nb">print</span><span class="p">(</span><span class="n">grouped</span><span class="p">)</span>
-
-<span class="ne">NameError</span>: name &#39;dataframe&#39; is not defined
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>      languageLabel
+year               
+1942              1
+1943              1
+1946              2
+1947              1
+1948              2
+1949              1
+1950              3
+1951             11
+1952              4
+1953              2
+1954              4
+1955              8
+1956              1
+1957              6
+1958              2
+1959              4
+1960              6
+1961              1
+1962              5
+1963              3
+1964             11
+1965              5
+1966              7
+1967              6
+1968              3
 </pre></div>
 </div>
 </div>
@@ -544,13 +626,34 @@ des sources de données externes utilisant des interfaces d’interrogation spé
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="nn">Input In [7],</span> in <span class="ni">&lt;cell line: 1&gt;</span><span class="nt">()</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">grouped</span> <span class="o">=</span> <span class="n">dataframe</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;year&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">([</span><span class="s1">&#39;count&#39;</span><span class="p">])</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="nb">print</span><span class="p">(</span><span class="n">grouped</span><span class="p">)</span>
-
-<span class="ne">NameError</span>: name &#39;dataframe&#39; is not defined
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>     languageLabel
+             count
+year              
+1942             1
+1943             1
+1946             2
+1947             1
+1948             2
+1949             1
+1950             3
+1951            11
+1952             4
+1953             2
+1954             4
+1955             8
+1956             1
+1957             6
+1958             2
+1959             4
+1960             6
+1961             1
+1962             5
+1963             3
+1964            11
+1965             5
+1966             7
+1967             6
+1968             3
 </pre></div>
 </div>
 </div>
@@ -581,14 +684,22 @@ des sources de données externes utilisant des interfaces d’interrogation spé
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="nn">Input In [8],</span> in <span class="ni">&lt;cell line: 1&gt;</span><span class="nt">()</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">from</span> <span class="nn">pandas.io.json</span> <span class="kn">import</span> <span class="n">json_normalize</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">json</span>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>                                            languageLabel
+                                                    count
+year paradigmLabel                                       
+1948 procedural programming                             1
+1949 non-structured programming                         1
+     procedural programming                             1
+1950 procedural programming                             1
+1953 procedural programming                             1
+...                                                   ...
+1970 imperative programming                             1
+     procedural programming                             1
+     structured programming                             1
+1971 functional programming                             1
+     knowledge representation and reasoning             1
 
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;pandas&#39;
+[73 rows x 1 columns]
 </pre></div>
 </div>
 </div>
@@ -603,14 +714,22 @@ des sources de données externes utilisant des interfaces d’interrogation spé
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="nn">Input In [9],</span> in <span class="ni">&lt;cell line: 1&gt;</span><span class="nt">()</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">grouped</span> <span class="o">=</span> <span class="n">dataframe</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;paradigmLabel&#39;</span><span class="p">,</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span>        <span class="s1">&#39;year&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">agg</span><span class="p">([</span><span class="s1">&#39;count&#39;</span><span class="p">])</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span><span class="n">grouped</span><span class="p">)</span>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>                            languageLabel
+                                    count
+paradigmLabel          year              
+array programming      1954             1
+                       1957             1
+                       1962             1
+                       1966             1
+assembly language      1956             1
+...                                   ...
+structured programming 1957             1
+                       1958             1
+                       1962             1
+                       1966             1
+                       1970             1
 
-<span class="ne">NameError</span>: name &#39;dataframe&#39; is not defined
+[73 rows x 1 columns]
 </pre></div>
 </div>
 </div>
