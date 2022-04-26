@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-04-26T12:36:54.365488Z",
+      "format": null,
+      "last_modified": "2022-04-26T12:36:53.029471Z",
+      "mimetype": null,
+      "name": "tp2.ipynb",
+      "path": "TP2/tp2.ipynb",
+      "size": 185845,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2022-04-26T12:36:54.365488Z",
+  "format": "json",
+  "last_modified": "2022-04-26T12:36:54.365488Z",
+  "mimetype": null,
+  "name": "TP2",
+  "path": "TP2",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-04-26T12:36:54.393488Z",
+      "format": null,
+      "last_modified": "2022-04-26T12:36:53.033471Z",
+      "mimetype": null,
+      "name": "chemical_compound.rq",
+      "path": "queries/chemical_compound.rq",
+      "size": 409,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-04-26T12:36:54.393488Z",
+      "format": null,
+      "last_modified": "2022-04-26T12:36:53.033471Z",
+      "mimetype": null,
+      "name": "articles.rq",
+      "path": "queries/articles.rq",
+      "size": 423,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2022-04-26T12:36:54.393488Z",
+  "format": "json",
+  "last_modified": "2022-04-26T12:36:54.393488Z",
+  "mimetype": null,
+  "name": "queries",
+  "path": "queries",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
