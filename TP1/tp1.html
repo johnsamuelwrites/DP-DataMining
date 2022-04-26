@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1. 0bjectifs &#8212; DP-Data Mining</title>
+    <title>2. TP 1 &#8212; DP-Data Mining</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -53,8 +53,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="3. Objectifs" href="../TP2/tp2.html" />
-    <link rel="prev" title="DP-DataMining" href="../README.html" />
+    <link rel="next" title="3. TP 2" href="../TP2/tp2.html" />
+    <link rel="prev" title="1. Installation" href="../installation.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -76,6 +76,11 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/datamining.svg" class="logo" alt="logo">
       
       
       <h1 class="site-logo" id="site-title">DP-Data Mining</h1>
@@ -95,23 +100,47 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Sujets de travaux pratiques et projet
+  Installation
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../installation.html">
+   1. Installation
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Travaux pratiques
  </span>
 </p>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   1. 0bjectifs
+   2. TP 1
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../TP2/tp2.html">
-   3. Objectifs
+   3. TP 2
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../TP3/tp3.html">
-   4. Objectifs
+   4. TP 3
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Projet
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Projet.html">
+   Projet
   </a>
  </li>
 </ul>
@@ -180,7 +209,7 @@ const thebe_selector_output = ".output, .cell_output"
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/johnsamuelwrites/DP-DataMining/main?urlpath=tree/TP1/tp1.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/johnsamuelwrites/DP-DataMining/main?urlpath=lab/tree/TP1/tp1.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../_static/images/logo_binder.svg"
@@ -207,76 +236,79 @@ const thebe_selector_output = ".output, .cell_output"
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   1. 0bjectifs
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#bjectifs">
+   2.1. 0bjectifs
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercice-1">
-     1.1. Exercice 1
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercice-2">
-     1.2. Exercice 2
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercice-3">
-     1.3. Exercice 3
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercice-4">
-     1.4. Exercice 4
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercice-5">
-     1.5. Exercice 5
-    </a>
-   </li>
-  </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#numpy">
-   2. Numpy
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-1">
+   2.2. Exercice 1
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-2">
+   2.3. Exercice 2
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-3">
+   2.4. Exercice 3
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-4">
+   2.5. Exercice 4
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-5">
+   2.6. Exercice 5
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercise-6">
+   2.7. Exercise 6
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#numpy">
+     2.7.1. Numpy
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#les-operations-sur-les-matrices">
-     2.1. Les opérations sur les matrices
+     2.7.2. Les opérations sur les matrices
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#tranposition-matricielle">
-     2.2. Tranposition matricielle
+     2.7.3. Tranposition matricielle
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#separer-une-matrice-en-deux-horizontalement-et-verticalement">
-     2.3. Séparer une matrice en deux, horizontalement et verticalement
+     2.7.4. Séparer une matrice en deux, horizontalement et verticalement
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#les-operations-sur-les-matrices-bidimensionnelles">
-     2.4. Les opérations sur les matrices bidimensionnelles
+     2.7.5. Les opérations sur les matrices bidimensionnelles
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#redefinir-une-matrice">
-     2.5. Redéfinir une matrice
+     2.7.6. Redéfinir une matrice
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#creer-des-matrices-avec-des-nombres-aleatoires">
-     2.6. Créer des matrices avec des nombres aléatoires
+     2.7.7. Créer des matrices avec des nombres aléatoires
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#quelques-fonctions-pour-travailler-avec-des-listes">
-     2.7. Quelques fonctions pour travailler avec des listes
+     2.7.8. Quelques fonctions pour travailler avec des listes
     </a>
    </li>
   </ul>
@@ -291,7 +323,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>0bjectifs</h1>
+                <h1>TP 1</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -301,76 +333,79 @@ const thebe_selector_output = ".output, .cell_output"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   1. 0bjectifs
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#bjectifs">
+   2.1. 0bjectifs
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercice-1">
-     1.1. Exercice 1
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercice-2">
-     1.2. Exercice 2
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercice-3">
-     1.3. Exercice 3
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercice-4">
-     1.4. Exercice 4
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercice-5">
-     1.5. Exercice 5
-    </a>
-   </li>
-  </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#numpy">
-   2. Numpy
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-1">
+   2.2. Exercice 1
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-2">
+   2.3. Exercice 2
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-3">
+   2.4. Exercice 3
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-4">
+   2.5. Exercice 4
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercice-5">
+   2.6. Exercice 5
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercise-6">
+   2.7. Exercise 6
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#numpy">
+     2.7.1. Numpy
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#les-operations-sur-les-matrices">
-     2.1. Les opérations sur les matrices
+     2.7.2. Les opérations sur les matrices
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#tranposition-matricielle">
-     2.2. Tranposition matricielle
+     2.7.3. Tranposition matricielle
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#separer-une-matrice-en-deux-horizontalement-et-verticalement">
-     2.3. Séparer une matrice en deux, horizontalement et verticalement
+     2.7.4. Séparer une matrice en deux, horizontalement et verticalement
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#les-operations-sur-les-matrices-bidimensionnelles">
-     2.4. Les opérations sur les matrices bidimensionnelles
+     2.7.5. Les opérations sur les matrices bidimensionnelles
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#redefinir-une-matrice">
-     2.5. Redéfinir une matrice
+     2.7.6. Redéfinir une matrice
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#creer-des-matrices-avec-des-nombres-aleatoires">
-     2.6. Créer des matrices avec des nombres aléatoires
+     2.7.7. Créer des matrices avec des nombres aléatoires
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#quelques-fonctions-pour-travailler-avec-des-listes">
-     2.7. Quelques fonctions pour travailler avec des listes
+     2.7.8. Quelques fonctions pour travailler avec des listes
     </a>
    </li>
   </ul>
@@ -384,8 +419,10 @@ const thebe_selector_output = ".output, .cell_output"
             
               <div>
                 
-  <div class="section" id="bjectifs">
-<h1><span class="section-number">1. </span>0bjectifs<a class="headerlink" href="#bjectifs" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="tp-1">
+<h1><span class="section-number">2. </span>TP 1<a class="headerlink" href="#tp-1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="bjectifs">
+<h2><span class="section-number">2.1. </span>0bjectifs<a class="headerlink" href="#bjectifs" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Comprendre les bases de la programmation Python :</p></li>
 <li><p>Variables, types de données, listes, ensembles et tuples.</p></li>
@@ -395,18 +432,14 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Fichiers et interaction avec les utilisateurs</p></li>
 <li><p>Numpy</p></li>
 </ul>
+</div>
 <div class="section" id="exercice-1">
-<h2><span class="section-number">1.1. </span>Exercice 1<a class="headerlink" href="#exercice-1" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.2. </span>Exercice 1<a class="headerlink" href="#exercice-1" title="Permalink to this headline">¶</a></h2>
 <p>1. Commentaires</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ceci est un commentaire</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bonjour&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjour
 </pre></div>
 </div>
 </div>
@@ -420,11 +453,6 @@ const thebe_selector_output = ".output, .cell_output"
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>le monde!
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -435,22 +463,12 @@ const thebe_selector_output = ".output, .cell_output"
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>30
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># nombres réels</span>
 <span class="n">pi</span> <span class="o">=</span> <span class="mf">3.14</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3.14
 </pre></div>
 </div>
 </div>
@@ -467,13 +485,6 @@ const thebe_selector_output = ".output, .cell_output"
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;str&#39;&gt;
-&lt;class &#39;int&#39;&gt;
-&lt;class &#39;float&#39;&gt;
-</pre></div>
-</div>
-</div>
 </div>
 <p>3. Concaténation de deux chaînes de caractères</p>
 <div class="cell docutils container">
@@ -484,11 +495,6 @@ const thebe_selector_output = ".output, .cell_output"
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjourle monde!
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -496,11 +502,6 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="n">message1</span> <span class="o">=</span> <span class="s2">&quot;Bonjour &quot;</span>
 <span class="n">message2</span> <span class="o">=</span> <span class="s2">&quot;le monde!&quot;</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">message1</span> <span class="o">+</span> <span class="n">message2</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjour le monde!
 </pre></div>
 </div>
 </div>
@@ -528,22 +529,12 @@ const thebe_selector_output = ".output, .cell_output"
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjour en Python 3
-</pre></div>
-</div>
-</div>
 </div>
 <p>4. Listes</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[10, 20, 30, 40, 50]
 </pre></div>
 </div>
 </div>
@@ -556,15 +547,6 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>10
-20
-30
-40
-50
 </pre></div>
 </div>
 </div>
@@ -593,18 +575,6 @@ const thebe_selector_output = ".output, .cell_output"
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>B
-o
-n
-j
-o
-u
-r
- 
-</pre></div>
-</div>
-</div>
 </div>
 <p>Le code ci-dessus affiche les différents caractères de la chaîne (ou liste de caractères).
 Nous allons maintenant obtenir la longueur de cette chaîne.</p>
@@ -615,22 +585,12 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>18
-</pre></div>
-</div>
-</div>
 </div>
 <p>Nous allons maintenant créer une liste d’entiers</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>5
 </pre></div>
 </div>
 </div>
@@ -645,11 +605,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[10, 20, 30, 40, 50, 60]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -661,11 +616,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0, 20, 30, 40, 50]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -674,11 +624,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 
 <span class="c1">#a[6] = 20</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[10, 20, 30, 40, 50]
 </pre></div>
 </div>
 </div>
@@ -695,12 +640,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0, 10, 20, 30, 40, 50]
-6
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -708,12 +647,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 <span class="n">a</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="mi">60</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[10, 20, 30, 40, 50, 60]
-6
 </pre></div>
 </div>
 </div>
@@ -731,12 +664,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[10, 20, 30, 40, 50, 60]
-6
-</pre></div>
-</div>
-</div>
 </div>
 <p>5. Tuples (non-modifiable lists)</p>
 <div class="cell docutils container">
@@ -746,21 +673,11 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(10, 20, 30, 40, 50)
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>10
 </pre></div>
 </div>
 </div>
@@ -779,11 +696,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(10, 20, 30, 40, 50)
-</pre></div>
-</div>
-</div>
 </div>
 <p>6. Sets</p>
 <div class="cell docutils container">
@@ -792,11 +704,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 
 <span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">}</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{50, 20, 40, 10, 30}
 </pre></div>
 </div>
 </div>
@@ -809,11 +716,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{50, 20, 40, 10, 30}
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -823,22 +725,12 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{50, 20, 40, 10, 60, 30}
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">}</span>
 <span class="n">a</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{50, 20, 10, 30}
 </pre></div>
 </div>
 </div>
@@ -863,20 +755,10 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{50, 20, 40, 10, 30}
-&lt;class &#39;set&#39;&gt;
-(10, 20, 30, 40, 50, 10, 20, 30, 40, 50)
-&lt;class &#39;tuple&#39;&gt;
-[10, 20, 30, 40, 50, 10, 20, 30, 40, 50]
-&lt;class &#39;list&#39;&gt;
-</pre></div>
-</div>
-</div>
 </div>
 </div>
 <div class="section" id="exercice-2">
-<h2><span class="section-number">1.2. </span>Exercice 2<a class="headerlink" href="#exercice-2" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.3. </span>Exercice 2<a class="headerlink" href="#exercice-2" title="Permalink to this headline">¶</a></h2>
 <p>1. Expressions conditionnelles</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -885,11 +767,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
     <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="s2">&quot; is divisible by 2&quot;</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="s2">&quot; is not divisible by 2&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>12  is divisible by 2
 </pre></div>
 </div>
 </div>
@@ -904,11 +781,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjour le monde!
-</pre></div>
-</div>
-</div>
 </div>
 <p>2. Boucles</p>
 <p>Les boucles peuvent également être utilisées pour accéder aux éléments de différents indices.</p>
@@ -917,20 +789,6 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># liste</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">]:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>10
-20
-30
-40
-50
-10
-20
-30
-40
-50
 </pre></div>
 </div>
 </div>
@@ -943,35 +801,12 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>10
-20
-30
-40
-50
-10
-20
-30
-40
-50
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># set</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">{</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">}:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>40
-10
-50
-20
-30
 </pre></div>
 </div>
 </div>
@@ -984,34 +819,11 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0
-2
-4
-6
-8
 </pre></div>
 </div>
 </div>
@@ -1026,25 +838,11 @@ Nous allons maintenant obtenir la longueur de cette chaîne.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0 2 4 6 8 
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mi">2</span><span class="p">):</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>10
-8
-6
-4
-2
 </pre></div>
 </div>
 </div>
@@ -1066,23 +864,11 @@ un délimiteur spécifié. Par défaut, le délimiteur est un espace blanc.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjour,le,monde!
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="s2">&quot;Bonjour,le,monde!&quot;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">):</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjour
-le
-monde!
 </pre></div>
 </div>
 </div>
@@ -1098,18 +884,13 @@ monde!
 <p>12345678</p>
 </div>
 <div class="section" id="exercice-3">
-<h2><span class="section-number">1.3. </span>Exercice 3<a class="headerlink" href="#exercice-3" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.4. </span>Exercice 3<a class="headerlink" href="#exercice-3" title="Permalink to this headline">¶</a></h2>
 <p>1. Tri</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">]</span>
 <span class="n">num</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[10, 10, 20, 20, 30, 30, 40, 40, 50, 50]
 </pre></div>
 </div>
 </div>
@@ -1123,11 +904,6 @@ monde!
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[50, 50, 40, 40, 30, 30, 20, 20, 10, 10]
-</pre></div>
-</div>
-</div>
 </div>
 <p>3. minimum</p>
 <div class="cell docutils container">
@@ -1137,22 +913,12 @@ monde!
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>10
-</pre></div>
-</div>
-</div>
 </div>
 <p>4. maximum</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>50
 </pre></div>
 </div>
 </div>
@@ -1168,14 +934,6 @@ monde!
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[70, 20, 30, 10, 50, 60, 20, 80, 70, 50]
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[80, 70, 70, 60, 50, 50, 30, 20, 20, 10]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1184,11 +942,6 @@ monde!
 <span class="c1"># sélectionner les cinq premiers numéros</span>
 <span class="n">tri</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)[:</span><span class="mi">5</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">tri</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[80, 70, 70, 60, 50]
 </pre></div>
 </div>
 </div>
@@ -1202,27 +955,16 @@ monde!
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;monde!&#39;, &#39;le&#39;, &#39;Bonjour&#39;]
-</pre></div>
-</div>
-</div>
 </div>
 </div>
 <div class="section" id="exercice-4">
-<h2><span class="section-number">1.4. </span>Exercice 4<a class="headerlink" href="#exercice-4" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.5. </span>Exercice 4<a class="headerlink" href="#exercice-4" title="Permalink to this headline">¶</a></h2>
 <p>1. Dictionnaire</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;contente&#39;: 12, &#39;content&#39;: 12, &#39;triste&#39;: 2}
-&lt;class &#39;dict&#39;&gt;
 </pre></div>
 </div>
 </div>
@@ -1235,27 +977,12 @@ monde!
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>la phrase  contente  apparait  12  fois
-la phrase  content  apparait  12  fois
-la phrase  triste  apparait  2  fois
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
 <span class="k">for</span> <span class="n">key</span><span class="p">,</span><span class="n">value</span> <span class="ow">in</span> <span class="n">a</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;la phrase &quot;</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="s2">&quot; apparait &quot;</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="s2">&quot; fois&quot;</span><span class="p">)</span>
-  
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>la phrase  contente  apparait  12  fois
-la phrase  content  apparait  12  fois
-la phrase  triste  apparait  2  fois
 </pre></div>
 </div>
 </div>
@@ -1265,12 +992,6 @@ la phrase  triste  apparait  2  fois
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
 <span class="n">a</span><span class="p">[</span><span class="s2">&quot;joie&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-  
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;contente&#39;: 12, &#39;content&#39;: 12, &#39;triste&#39;: 2, &#39;joie&#39;: 10}
 </pre></div>
 </div>
 </div>
@@ -1283,22 +1004,12 @@ la phrase  triste  apparait  2  fois
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;contente&#39;: 12, &#39;content&#39;: 12}
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mots</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> 
      <span class="s2">&quot;joie&quot;</span> <span class="p">:</span> <span class="mi">10</span><span class="p">}</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">mots</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;content&#39;, &#39;contente&#39;, &#39;joie&#39;, &#39;triste&#39;]
 </pre></div>
 </div>
 </div>
@@ -1312,14 +1023,6 @@ la phrase  triste  apparait  2  fois
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[(&#39;contente&#39;, 12), (&#39;content&#39;, 12), (&#39;triste&#39;, 2), (&#39;joie&#39;, 10)]
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>
-</pre></div>
-</div>
-</div>
 </div>
 <p>2. itemgetter</p>
 <div class="cell docutils container">
@@ -1330,11 +1033,6 @@ la phrase  triste  apparait  2  fois
      <span class="s2">&quot;joie&quot;</span> <span class="p">:</span> <span class="mi">10</span><span class="p">}</span>
 <span class="n">mots_tuple</span> <span class="o">=</span> <span class="p">[(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span><span class="n">value</span> <span class="ow">in</span> <span class="n">mots</span><span class="o">.</span><span class="n">items</span><span class="p">()]</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">mots_tuple</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">itemgetter</span><span class="p">(</span><span class="mi">1</span><span class="p">)))</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[(&#39;triste&#39;, 2), (&#39;joie&#39;, 10), (&#39;contente&#39;, 12), (&#39;content&#39;, 12)]
 </pre></div>
 </div>
 </div>
@@ -1383,7 +1081,7 @@ et afficher les valeurs suivantes pour chaque module :</p>
 </ul>
 </div>
 <div class="section" id="exercice-5">
-<h2><span class="section-number">1.5. </span>Exercice 5<a class="headerlink" href="#exercice-5" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">2.6. </span>Exercice 5<a class="headerlink" href="#exercice-5" title="Permalink to this headline">¶</a></h2>
 <p>Lire et écrire dans un fichier</p>
 <p>1. Fichiers</p>
 <div class="cell docutils container">
@@ -1404,11 +1102,6 @@ et afficher les valeurs suivantes pour chaque module :</p>
     <span class="n">text</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
 <span class="n">file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjour le monde
 </pre></div>
 </div>
 </div>
@@ -1436,11 +1129,6 @@ et afficher les valeurs suivantes pour chaque module :</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjour le mondeProgrammation en Python
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1456,12 +1144,6 @@ et afficher les valeurs suivantes pour chaque module :</p>
     <span class="n">text</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
 <span class="n">file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjour le monde
-Programmation en Python
 </pre></div>
 </div>
 </div>
@@ -1489,11 +1171,6 @@ Programmation en Python
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjour le monde
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1516,13 +1193,6 @@ Programmation en Python
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Bonjour le monde
-
-Programmation en Python
-</pre></div>
-</div>
-</div>
 </div>
 <p><strong>Question:</strong> Copiez un fichier HTML dans votre répertoire. Ecrire un programme
 en Python pour obtenir les valeurs suivantes :</p>
@@ -1541,9 +1211,10 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 <li><p>la valeur minimale de la population</p></li>
 </ul>
 </div>
-</div>
-<div class="tex2jax_ignore mathjax_ignore section" id="numpy">
-<h1><span class="section-number">2. </span>Numpy<a class="headerlink" href="#numpy" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="exercise-6">
+<h2><span class="section-number">2.7. </span>Exercise 6<a class="headerlink" href="#exercise-6" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="numpy">
+<h3><span class="section-number">2.7.1. </span>Numpy<a class="headerlink" href="#numpy" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -1551,8 +1222,9 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </div>
 </div>
 </div>
+</div>
 <div class="section" id="les-operations-sur-les-matrices">
-<h2><span class="section-number">2.1. </span>Les opérations sur les matrices<a class="headerlink" href="#les-operations-sur-les-matrices" title="Permalink to this headline">¶</a></h2>
+<h3><span class="section-number">2.7.2. </span>Les opérations sur les matrices<a class="headerlink" href="#les-operations-sur-les-matrices" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
@@ -1568,21 +1240,11 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[ 6  8 10 12]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">c1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">subtract</span><span class="p">(</span><span class="n">a1</span><span class="p">,</span><span class="n">b1</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">c1</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[-4 -4 -4 -4]
 </pre></div>
 </div>
 </div>
@@ -1594,21 +1256,11 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[ 5 12 21 32]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">c1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="n">b1</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">c1</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[20 24 28 32]
 </pre></div>
 </div>
 </div>
@@ -1620,21 +1272,11 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>70
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">c1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="n">b1</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">c1</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[25 30 35 40]
 </pre></div>
 </div>
 </div>
@@ -1647,11 +1289,6 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[10, 20, 30, 40, 50, 10, 20, 30, 40, 50]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1661,15 +1298,10 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1.5
-</pre></div>
-</div>
-</div>
 </div>
 </div>
 <div class="section" id="tranposition-matricielle">
-<h2><span class="section-number">2.2. </span>Tranposition matricielle<a class="headerlink" href="#tranposition-matricielle" title="Permalink to this headline">¶</a></h2>
+<h3><span class="section-number">2.7.3. </span>Tranposition matricielle<a class="headerlink" href="#tranposition-matricielle" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">b1</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">],</span>
@@ -1680,20 +1312,10 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[5, 6, 7, 8, 9], [1, 2, 3, 4, 5]]
-[[5 1]
- [6 2]
- [7 3]
- [8 4]
- [9 5]]
-</pre></div>
-</div>
-</div>
 </div>
 </div>
 <div class="section" id="separer-une-matrice-en-deux-horizontalement-et-verticalement">
-<h2><span class="section-number">2.3. </span>Séparer une matrice en deux, horizontalement et verticalement<a class="headerlink" href="#separer-une-matrice-en-deux-horizontalement-et-verticalement" title="Permalink to this headline">¶</a></h2>
+<h3><span class="section-number">2.7.4. </span>Séparer une matrice en deux, horizontalement et verticalement<a class="headerlink" href="#separer-une-matrice-en-deux-horizontalement-et-verticalement" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
@@ -1708,18 +1330,6 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 <span class="n">a2</span>  <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a1</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a2</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[0 0]
- [0 1]
- [1 0]
- [1 1]]
-[[0]
- [0]
- [0]
- [1]]
 </pre></div>
 </div>
 </div>
@@ -1741,18 +1351,10 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[0 0 0]
- [0 1 0]]
-[[1 0 0]
- [1 1 1]]
-</pre></div>
-</div>
-</div>
 </div>
 </div>
 <div class="section" id="les-operations-sur-les-matrices-bidimensionnelles">
-<h2><span class="section-number">2.4. </span>Les opérations sur les matrices bidimensionnelles<a class="headerlink" href="#les-operations-sur-les-matrices-bidimensionnelles" title="Permalink to this headline">¶</a></h2>
+<h3><span class="section-number">2.7.5. </span>Les opérations sur les matrices bidimensionnelles<a class="headerlink" href="#les-operations-sur-les-matrices-bidimensionnelles" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a2</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
@@ -1770,12 +1372,6 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[ 6  8 10 12]
- [ 6  8 10 12]]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1784,23 +1380,11 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[-4 -4 -4 -4]
- [-4 -4 -4 -4]]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">c2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">a2</span><span class="p">,</span><span class="n">b2</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">c2</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[ 5 12 21 32]
- [ 5 12 21 32]]
 </pre></div>
 </div>
 </div>
@@ -1818,16 +1402,10 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[70 70]
- [70 70]]
-</pre></div>
-</div>
-</div>
 </div>
 </div>
 <div class="section" id="redefinir-une-matrice">
-<h2><span class="section-number">2.5. </span>Redéfinir une matrice<a class="headerlink" href="#redefinir-une-matrice" title="Permalink to this headline">¶</a></h2>
+<h3><span class="section-number">2.7.6. </span>Redéfinir une matrice<a class="headerlink" href="#redefinir-une-matrice" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">b2</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
@@ -1835,25 +1413,14 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[5 6 7 8]
- [5 6 7 8]]
-</pre></div>
-</div>
-</div>
 </div>
 </div>
 <div class="section" id="creer-des-matrices-avec-des-nombres-aleatoires">
-<h2><span class="section-number">2.6. </span>Créer des matrices avec des nombres aléatoires<a class="headerlink" href="#creer-des-matrices-avec-des-nombres-aleatoires" title="Permalink to this headline">¶</a></h2>
+<h3><span class="section-number">2.7.7. </span>Créer des matrices avec des nombres aléatoires<a class="headerlink" href="#creer-des-matrices-avec-des-nombres-aleatoires" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.39929214933650936
 </pre></div>
 </div>
 </div>
@@ -1865,22 +1432,11 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0.57330133]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[0.12610102 0.43172092 0.14133795 0.60858273 0.11781988]
- [0.29210202 0.02343826 0.73984019 0.15012105 0.75264678]]
 </pre></div>
 </div>
 </div>
@@ -1892,27 +1448,11 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[[0.27778183 0.66701032 0.8849037 ]
-  [0.2893474  0.7277111  0.65476585]
-  [0.3086413  0.77826634 0.62351563]]
-
- [[0.00455089 0.45584026 0.82996402]
-  [0.15692169 0.04458809 0.69188842]
-  [0.04558274 0.71410574 0.72330991]]]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0.]
 </pre></div>
 </div>
 </div>
@@ -1924,11 +1464,6 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1937,16 +1472,10 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[0 0 0 0 0]
- [0 0 0 0 0]]
-</pre></div>
-</div>
-</div>
 </div>
 </div>
 <div class="section" id="quelques-fonctions-pour-travailler-avec-des-listes">
-<h2><span class="section-number">2.7. </span>Quelques fonctions pour travailler avec des listes<a class="headerlink" href="#quelques-fonctions-pour-travailler-avec-des-listes" title="Permalink to this headline">¶</a></h2>
+<h3><span class="section-number">2.7.8. </span>Quelques fonctions pour travailler avec des listes<a class="headerlink" href="#quelques-fonctions-pour-travailler-avec-des-listes" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">]</span>
@@ -1954,14 +1483,6 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 
 <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">a_reverse</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>15
-14
-13
-12
 </pre></div>
 </div>
 </div>
@@ -1977,12 +1498,6 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[(0, &#39;dimanche&#39;), (1, &#39;lundi&#39;), (2, &#39;mardi&#39;), (3, &#39;mercredi&#39;), (4, &#39;jeudi&#39;), (5, &#39;vendredi&#39;)]
-[(1, &#39;dimanche&#39;), (2, &#39;lundi&#39;), (3, &#39;mardi&#39;), (4, &#39;mercredi&#39;), (5, &#39;jeudi&#39;), (6, &#39;vendredi&#39;)]
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1991,11 +1506,6 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 
 <span class="n">zipped</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">a1</span><span class="p">,</span> <span class="n">b1</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">zipped</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[(1, 5), (2, 6), (3, 7), (4, 8)]
 </pre></div>
 </div>
 </div>
@@ -2009,10 +1519,6 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 <span class="nb">print</span><span class="p">(</span><span class="n">ezipped</span><span class="p">)</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[(0, (1, 5)), (1, (2, 6)), (2, (3, 7)), (3, (4, 8))]
-</pre></div>
 </div>
 </div>
 </div>
@@ -2044,17 +1550,17 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="../README.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../installation.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">DP-DataMining</p>
+            <p class="prev-next-title"><span class="section-number">1. </span>Installation</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="../TP2/tp2.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">3. </span>Objectifs</p>
+        <p class="prev-next-title"><span class="section-number">3. </span>TP 2</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
