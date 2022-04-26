@@ -1,9 +1,17 @@
 format: jb-book
 root: README
 parts:
-- caption: Sujets de travaux pratiques et projet
+- caption: Installation
+  numbered: true
+  chapters:
+  - file: installation.ipynb
+- caption: Travaux pratiques
   numbered: true
   chapters:
   - file: TP1/tp1.ipynb
   - file: TP2/tp2.ipynb
   - file: TP3/tp3.ipynb
+- caption: Projet
+  numbered: false
+  chapters:
+  - file: Projet.md
