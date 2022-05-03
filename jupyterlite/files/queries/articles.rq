@@ -1,0 +1,13 @@
+#title: les articles scientifiques
+SELECT ?article ?articlelabel ?date ?year{
+  ?article wdt:P921 wd:Q283. # sujet principale = l'eau
+  ?article wdt:P31 wd:Q13442814. # article scientifique
+  ?article wdt:P577 ?date. # date de publication
+  
+  ?article rdfs:label ?articlelabel. # libellé en anglais
+  FILTER(lang(?articlelabel) = "en").
+
+  BIND(year(?date) as ?year). # l'année > 2015
+  FILTER(?year > 2015)
+}
+LIMIT 100
