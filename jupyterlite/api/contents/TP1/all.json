@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-05-03T11:07:04.833557Z",
+      "format": null,
+      "last_modified": "2022-05-03T11:07:02.737423Z",
+      "mimetype": null,
+      "name": "tp1.ipynb",
+      "path": "TP1/tp1.ipynb",
+      "size": 34442,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-05-03T11:07:04.833557Z",
+      "format": null,
+      "last_modified": "2022-05-03T11:07:02.737423Z",
+      "mimetype": "text/plain",
+      "name": "bonjour.txt",
+      "path": "TP1/bonjour.txt",
+      "size": 41,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2022-05-03T11:07:04.833557Z",
+  "format": "json",
+  "last_modified": "2022-05-03T11:07:04.833557Z",
+  "mimetype": null,
+  "name": "TP1",
+  "path": "TP1",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
