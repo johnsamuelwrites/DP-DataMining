@@ -19,3 +19,19 @@ Vous devez accomplir les tâches suivantes:
 2. Décrire les données provenant de ces sources (les colonnes, les valeurs uniques, les types de données, la taille...)
 3. Analyser les données en comparant les informations provenant de différents pays
 4. Visualiser l'évolution des différents types de production d'énergie
+
+### Évaluation
+
+Les critères d'évaluation des projets sont indiqués ci-dessous : 
+1.  Analyses de données
+    1. Types d'analyses utilisées
+    2. Utilisation de Pandas 
+    3. Utilisation d'algorithmes d'exploration de données
+2.  Visualisation des données
+    1. Types de techniques de visualisation utilisées
+    2. Utilisation de matplotlib
+3.  Rapport (3 pages, Arial 11pt)
+    1. Clarté de la présentation
+    2. Présence d'une introduction et d'une conclusion claires, architecture
+        des diagrammes, un résumé des différentes tâches réalisées et des limites
+    4. Bibliographie
