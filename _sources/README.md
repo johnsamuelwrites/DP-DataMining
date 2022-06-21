@@ -12,6 +12,7 @@ Digitalisation des procédés: Data Mining
 - John Samuel
 
 ## Archives and Releases
+* [Zenodo](https://doi.org/10.5281/zenodo.6675517)
 - [Release Notes](RELEASE.md)
 
 ## Licence
