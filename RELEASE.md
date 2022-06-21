@@ -4,4 +4,4 @@
 ===============================================================================
 
 **Année**: 2021-2022
-* Sujets de travaux pratiques et de projet de Data Mining
+- Sujets de travaux pratiques et de projet de Data Mining (Digitalisation des procédés)
