@@ -1,5 +1,11 @@
 # RELEASE notes
 
+# v1.1
+===============================================================================
+- Indent code using black
+- Update package requirements
+- Update exercises and project description
+
 ## v1.0
 ===============================================================================
 
