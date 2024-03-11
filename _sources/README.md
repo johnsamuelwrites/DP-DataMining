@@ -6,7 +6,7 @@ Digitalisation des procédés: Data Mining
 - [TP 1 : Notebook Jupyter 1](TP1/tp1.ipynb)
 - [TP 2 : Notebook Jupyter 2](TP2/tp2.ipynb)
 - [TP 3 : Notebook Jupyter 3](TP3/tp3.ipynb)
-- [Projet](Projet.md)
+- [Projet](Projet.ipynb)
 
 ## Author
 - John Samuel
