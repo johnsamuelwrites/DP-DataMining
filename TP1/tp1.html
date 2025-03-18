@@ -419,7 +419,10 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#points-cles">5.3. Points clés :</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-boucles">5.4. b. Boucles</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-limites">5.5. c. Limites</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-limites">5.5. c. Limites</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#d-split">5.5.1. d. split()</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-3">6. Exercice 3 ★</a><ul class="visible nav section-nav flex-column">
@@ -442,7 +445,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-6">9. Exercise 6 ★★★</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#numpy">9.1. Numpy</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#numpy">9.1. NumPy</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-les-operations-sur-les-matrices">9.2. a. Les opérations sur les matrices</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-tranposition-matricielle">9.3. b. Tranposition matricielle</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-separer-une-matrice-en-deux-horizontalement-et-verticalement">9.4. c. Séparer une matrice en deux, horizontalement et verticalement</a></li>
@@ -1094,13 +1097,8 @@ document.write(`
 </div>
 </div>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#### d. split()</span>
-</pre></div>
-</div>
-</div>
-</div>
+<section id="d-split">
+<h3><span class="section-number">5.5.1. </span>d. split()<a class="headerlink" href="#d-split" title="Link to this heading">#</a></h3>
 <p>split(): La fonction peut être utilisée pour séparer une chaîne de caractères en utilisant
 un délimiteur spécifié. Par défaut, le délimiteur est un espace blanc.</p>
 <div class="cell docutils container">
@@ -1129,6 +1127,7 @@ un délimiteur spécifié. Par défaut, le délimiteur est un espace blanc.</p>
 <p>123456</p>
 <p>1234567</p>
 <p>12345678</p>
+</section>
 </section>
 </section>
 <section id="exercice-3">
@@ -1222,6 +1221,7 @@ un délimiteur spécifié. Par défaut, le délimiteur est un espace blanc.</p>
 <h1><span class="section-number">7. </span>Exercice 4 ★★<a class="headerlink" href="#exercice-4" title="Link to this heading">#</a></h1>
 <section id="a-dictionnaire">
 <h2><span class="section-number">7.1. </span>a. Dictionnaire<a class="headerlink" href="#a-dictionnaire" title="Link to this heading">#</a></h2>
+<p>Un dictionnaire représente une collection non ordonnée d’éléments où chaque élément est une paire clé-valeur. Les clés doivent être uniques et immuables (chaînes de caractères, nombres, tuples), tandis que les valeurs peuvent être de n’importe quel type de données et peuvent être mutables.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
@@ -1231,20 +1231,22 @@ un délimiteur spécifié. Par défaut, le délimiteur est un espace blanc.</p>
 </div>
 </div>
 </div>
+<p>Vous pouvez accéder (et même modifier) à la valeur associée à une clé en utilisant <code class="docutils literal notranslate"><span class="pre">a[key]</span></code>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+<span class="n">a</span><span class="p">[</span><span class="s2">&quot;contente&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Itérer directement sur un dictionnaire permet d’itérer sur ses clés par défaut.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
 <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">a</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;la phrase &quot;</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="s2">&quot; apparait &quot;</span><span class="p">,</span> <span class="n">a</span><span class="p">[</span><span class="n">key</span><span class="p">],</span> <span class="s2">&quot; fois&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
-<span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">a</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;la phrase &quot;</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="s2">&quot; apparait &quot;</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="s2">&quot; fois&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1258,19 +1260,21 @@ un délimiteur spécifié. Par défaut, le délimiteur est un espace blanc.</p>
 </div>
 </div>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
-<span class="k">del</span> <span class="n">a</span><span class="p">[</span><span class="s2">&quot;triste&quot;</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
+<p>Trier directement un dictionnaire avec <code class="docutils literal notranslate"><span class="pre">sorted()</span></code> trie ses clés et les retourne sous forme de liste.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mots</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s2">&quot;joie&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">}</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">mots</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>L’utilisation de <code class="docutils literal notranslate"><span class="pre">.items()</span></code> permet d’itérer sur les paires clé-valeur d’un dictionnaire.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+<span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">a</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;la phrase &quot;</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="s2">&quot; apparait &quot;</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="s2">&quot; fois&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1284,9 +1288,21 @@ un délimiteur spécifié. Par défaut, le délimiteur est un espace blanc.</p>
 </div>
 </div>
 </div>
+<p>Vous pouvez supprimer un élément d’un dictionnaire en utilisant <code class="docutils literal notranslate"><span class="pre">del</span></code> suivi de <code class="docutils literal notranslate"><span class="pre">a[key]</span></code>, où <code class="docutils literal notranslate"><span class="pre">key</span></code> est la clé de l’élément que vous souhaitez supprimer.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;contente&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;triste&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+<span class="k">del</span> <span class="n">a</span><span class="p">[</span><span class="s2">&quot;triste&quot;</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 <section id="b-itemgetter">
 <h2><span class="section-number">7.2. </span>b. itemgetter<a class="headerlink" href="#b-itemgetter" title="Link to this heading">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">itemgetter</span></code> est une fonction du module <code class="docutils literal notranslate"><span class="pre">operator</span></code> qui est utilisée pour récupérer des éléments ou des objets d’un objet itérable (comme une liste, un tuple ou un dictionnaire) en fonction de leurs indices ou clés. Elle renvoie un objet callable qui extrait l’élément ou les éléments spécifiés de l’objet fourni.</p>
+<p>Utiliser <code class="docutils literal notranslate"><span class="pre">sorted()</span></code> avec <code class="docutils literal notranslate"><span class="pre">itemgetter(1)</span></code> permet de trier une liste de tuples en fonction du deuxième élément (ici, la <code class="docutils literal notranslate"><span class="pre">valeur</span></code>). Les opérations de tri ne modifient pas le dictionnaire d’origine ni son contenu, mais créent une liste triée de tuples.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">operator</span><span class="w"> </span><span class="kn">import</span> <span class="n">itemgetter</span>
@@ -1301,6 +1317,7 @@ un délimiteur spécifié. Par défaut, le délimiteur est un espace blanc.</p>
 </section>
 <section id="c-interaction-with-user">
 <h2><span class="section-number">7.3. </span>c. Interaction with user<a class="headerlink" href="#c-interaction-with-user" title="Link to this heading">#</a></h2>
+<p>La fonction <code class="docutils literal notranslate"><span class="pre">input()</span></code> est utilisée pour accepter les entrées de l’utilisateur depuis la console. Le message à l’intérieur de <code class="docutils literal notranslate"><span class="pre">input()</span></code> sert d’invite pour guider l’utilisateur sur ce qu’il doit saisir.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># nom = input(&quot;Quel est votre nom?&quot;)</span>
@@ -1328,7 +1345,7 @@ un délimiteur spécifié. Par défaut, le délimiteur est un espace blanc.</p>
 </div>
 </div>
 </div>
-<p><strong>Question : Compréhension de l’ensemble et filtrage complexe</strong></p>
+<p><strong>Question 1: Compréhension de l’ensemble et filtrage complexe</strong></p>
 <p>Vous avez une collection de données d’utilisateurs stockées sous forme de liste de dictionnaires. Chaque dictionnaire représente un utilisateur avec les clés suivantes : name, age et hobbies.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1354,7 +1371,7 @@ un délimiteur spécifié. Par défaut, le délimiteur est un espace blanc.</p>
 </li>
 <li><p>Affichez les résultats clairement et expliquez votre approche.</p></li>
 </ol>
-<p><strong>Question:</strong> Ecrire un programme en Python qui interagit avec l’utilisateur pour
+<p><strong>Question 2:</strong> Ecrire un programme en Python qui interagit avec l’utilisateur pour
 obtenir les informations suivantes de 5 étudiants :</p>
 <ul class="simple">
 <li><p>Nom de l’étudiant</p></li>
@@ -1375,6 +1392,7 @@ et afficher les valeurs suivantes pour chaque module :</p>
 <p>Lire et écrire dans un fichier</p>
 <section id="a-fichiers">
 <h2><span class="section-number">8.1. </span>a. Fichiers<a class="headerlink" href="#a-fichiers" title="Link to this heading">#</a></h2>
+<p>La fonction <code class="docutils literal notranslate"><span class="pre">open()</span></code> ouvre un fichier et retourne un objet fichier correspondant qui vous permet d’interagir avec le fichier (lire son contenu, y écrire, etc.). La méthode <code class="docutils literal notranslate"><span class="pre">read()</span></code> lit les données d’un fichier ouvert. La méthode <code class="docutils literal notranslate"><span class="pre">write()</span></code> écrit des données dans un fichier ouvert.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># écrire dans un fichier</span>
@@ -1439,6 +1457,38 @@ et afficher les valeurs suivantes pour chaque module :</p>
 </div>
 </div>
 </div>
+<p>Dans Jupyter Notebook, le symbole <code class="docutils literal notranslate"><span class="pre">?</span></code> est utilisé pour accéder à la documentation et à l’aide des fonctions et objets. C’est un raccourci pour accéder au système d’aide intégré dans Python et les environnements Jupyter.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">?</span>open
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">?</span>message1
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">?</span>message2
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;bonjour.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+<span class="n">file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 <section id="b-readline">
 <h2><span class="section-number">8.2. </span>b. readline()<a class="headerlink" href="#b-readline" title="Link to this heading">#</a></h2>
@@ -1455,6 +1505,7 @@ et afficher les valeurs suivantes pour chaque module :</p>
 </div>
 </div>
 </div>
+<p>Utilisez <code class="docutils literal notranslate"><span class="pre">readline()</span></code> dans une boucle ou de manière itérative pour traiter chaque ligne d’un fichier séquentiellement. Cela est utile pour traiter des fichiers volumineux ou des fichiers où il est nécessaire de traiter chaque ligne indépendamment.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;bonjour.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
@@ -1508,7 +1559,8 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 <section id="exercise-6">
 <h1><span class="section-number">9. </span>Exercise 6 ★★★<a class="headerlink" href="#exercise-6" title="Link to this heading">#</a></h1>
 <section id="numpy">
-<h2><span class="section-number">9.1. </span>Numpy<a class="headerlink" href="#numpy" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">9.1. </span>NumPy<a class="headerlink" href="#numpy" title="Link to this heading">#</a></h2>
+<p><strong>NumPy</strong>, une bibliothèque populaire pour les calculs numériques, offre des moyens efficaces d’effectuer des opérations mathématiques sur des tableaux, y compris des matrices. Les opérations NumPy sont optimisées pour les performances, en particulier avec de grands ensembles de données.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
@@ -1527,6 +1579,7 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </div>
 </div>
 </div>
+<p>Addition de matrices avec <code class="docutils literal notranslate"><span class="pre">np.add()</span></code></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">c1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">a1</span><span class="p">,</span> <span class="n">b1</span><span class="p">)</span>
@@ -1535,6 +1588,7 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </div>
 </div>
 </div>
+<p>Soustraction de matrices avec <code class="docutils literal notranslate"><span class="pre">np.subtract()</span></code></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">c1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">subtract</span><span class="p">(</span><span class="n">a1</span><span class="p">,</span> <span class="n">b1</span><span class="p">)</span>
@@ -1543,6 +1597,7 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </div>
 </div>
 </div>
+<p>Multiplication de matrices avec <code class="docutils literal notranslate"><span class="pre">np.multiply()</span></code></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">c1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">a1</span><span class="p">,</span> <span class="n">b1</span><span class="p">)</span>
@@ -1609,6 +1664,7 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </section>
 <section id="c-separer-une-matrice-en-deux-horizontalement-et-verticalement">
 <h2><span class="section-number">9.4. </span>c. Séparer une matrice en deux, horizontalement et verticalement<a class="headerlink" href="#c-separer-une-matrice-en-deux-horizontalement-et-verticalement" title="Link to this heading">#</a></h2>
+<p>La fonction <code class="docutils literal notranslate"><span class="pre">np.hsplit()</span></code> divise un tableau horizontalement (le long des colonnes) aux indices spécifiés.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]]</span>
@@ -1624,6 +1680,14 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </div>
 </div>
 </div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">?</span>np.hsplit
+</pre></div>
+</div>
+</div>
+</div>
+<p>La fonction <code class="docutils literal notranslate"><span class="pre">np.vsplit()</span></code> divise un tableau verticalement (le long des lignes) aux indices spécifiés.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]]</span>
@@ -1899,7 +1963,10 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#points-cles">5.3. Points clés :</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-boucles">5.4. b. Boucles</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-limites">5.5. c. Limites</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-limites">5.5. c. Limites</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#d-split">5.5.1. d. split()</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-3">6. Exercice 3 ★</a><ul class="visible nav section-nav flex-column">
@@ -1922,7 +1989,7 @@ du fichier population.csv du dossier <strong>data</strong>. Le fichier contient 
 </ul>
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-6">9. Exercise 6 ★★★</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#numpy">9.1. Numpy</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#numpy">9.1. NumPy</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-les-operations-sur-les-matrices">9.2. a. Les opérations sur les matrices</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-tranposition-matricielle">9.3. b. Tranposition matricielle</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-separer-une-matrice-en-deux-horizontalement-et-verticalement">9.4. c. Séparer une matrice en deux, horizontalement et verticalement</a></li>
