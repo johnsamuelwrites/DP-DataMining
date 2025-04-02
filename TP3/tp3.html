@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>4. TP 3 &#8212; DP-Data Mining</title>
+    <title>12. TP 3 &#8212; DP-Data Mining</title>
   
   
   
@@ -61,7 +61,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Projet" href="../Projet.html" />
-    <link rel="prev" title="3. TP 2" href="../TP2/tp2.html" />
+    <link rel="prev" title="3. TP 1" href="../TP2/tp2.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -186,8 +186,16 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Travaux pratiques</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../TP1/tp1.html">2. TP 1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../TP2/tp2.html">3. TP 2</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">4. TP 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../TP2/tp2.html">3. TP 1</a></li>
+
+
+
+
+
+
+
+
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">12. TP 3</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Projet</span></p>
 <ul class="nav bd-sidenav">
@@ -389,12 +397,12 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectifs">4.1. Objectifs</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1">4.2. Exercise 1 [★]</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-2">4.3. Exercice 2 [★]</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-3">4.4. Exercice 3 [★★]</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4">4.5. Exercise 4 [★★]</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-5">4.6. Exercice 5</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectifs">12.1. Objectifs</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1">12.2. Exercise 1 [★]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-2">12.3. Exercice 2 [★]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-3">12.4. Exercice 3 [★★]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4">12.5. Exercise 4 [★★]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-5">12.6. Exercice 5</a></li>
 </ul>
             </nav>
         </div>
@@ -407,9 +415,9 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="tp-3">
-<h1><span class="section-number">4. </span>TP 3<a class="headerlink" href="#tp-3" title="Link to this heading">#</a></h1>
+<h1><span class="section-number">12. </span>TP 3<a class="headerlink" href="#tp-3" title="Link to this heading">#</a></h1>
 <section id="objectifs">
-<h2><span class="section-number">4.1. </span>Objectifs<a class="headerlink" href="#objectifs" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">12.1. </span>Objectifs<a class="headerlink" href="#objectifs" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Tracer des graphiques en utilisant
 <a class="reference external" href="https://matplotlib.org/api/pyplot_api.html">matplotlib</a></p></li>
@@ -419,7 +427,7 @@ et <a class="reference external" href="http://scikit-learn.org/stable/modules/sv
 </ol>
 </section>
 <section id="exercise-1">
-<h2><span class="section-number">4.2. </span>Exercise 1 [★]<a class="headerlink" href="#exercise-1" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">12.2. </span>Exercise 1 [★]<a class="headerlink" href="#exercise-1" title="Link to this heading">#</a></h2>
 <p><a class="reference external" href="https://matplotlib.org/api/pyplot_api.html">matplotlib</a> peut être utilisé pour tracer des graphiques. Voici un code très simple avec seulement valeurs x. Après avoir importé la bibliothèque <em>matplotlib</em>, nous initialisons les valeurs x et les traçons.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -556,7 +564,7 @@ sur plusieurs colonnes. Des sous-parcelles peuvent être utilisées pour visuali
 Modifiez le code ci-dessus, afin que nous puissions obtenir des informations visuelles sur le nombre de langages de différents paradigmes de programmation publiés au cours de chaque année disponible, c’est-à-dire que pour chaque année, nous voulons voir le nombre de langages de programmation appartenant à chaque paradigme de langage de programmation.</p>
 </section>
 <section id="exercice-2">
-<h2><span class="section-number">4.3. </span>Exercice 2 [★]<a class="headerlink" href="#exercice-2" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">12.3. </span>Exercice 2 [★]<a class="headerlink" href="#exercice-2" title="Link to this heading">#</a></h2>
 <p>Dans cet exercice, nous allons travailler sur les images. Téléchargez une image (par ex,
 <a class="reference internal" href="#../../images/picture.bmp"><span class="xref myst">image.bmp</span></a> et <a class="reference internal" href="#../../images/flower.jpg"><span class="xref myst">flower.jpg</span></a>) dans votre dossier
 et l’ouvrir de la manière suivante. Nous allons d’abord essayer d’obtenir quelques métadonnées de l’image.</p>
@@ -688,7 +696,7 @@ et l’ouvrir de la manière suivante. Nous allons d’abord essayer d’obtenir
 <p>Votre prochaine question consiste à obtenir les 20 premières intensités dans chaque bande et à créer un seul tracé de ces premières intensités. Écrivez un programme python qui peut réaliser cela.</p>
 </section>
 <section id="exercice-3">
-<h2><span class="section-number">4.4. </span>Exercice 3 [★★]<a class="headerlink" href="#exercice-3" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">12.4. </span>Exercice 3 [★★]<a class="headerlink" href="#exercice-3" title="Link to this heading">#</a></h2>
 <p>Dans cet exercice, nous examinerons  <a class="reference external" href="http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html">Algorithme de regroupement KMeans</a>.
 En continuant avec les images, nous allons maintenant trouver 4 couleurs prédominantes dans une image.</p>
 <div class="cell docutils container">
@@ -736,7 +744,7 @@ que nous utilisons les couleurs de l’image comme les couleurs de la tranche.</
 <p><img alt="" src="TP3/images/piechart.png" /></p>
 </section>
 <section id="exercise-4">
-<h2><span class="section-number">4.5. </span>Exercise 4 [★★]<a class="headerlink" href="#exercise-4" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">12.5. </span>Exercise 4 [★★]<a class="headerlink" href="#exercise-4" title="Link to this heading">#</a></h2>
 <p>Nous allons essayer d’obtenir plus de clusters et de vérifier le temps pris par chacun de ces algorithmes.
 Commençons par quelques exercices très simples pour expérimenter l’algorithme KMeans. Considérez les données suivantes et visualisez-les sur un nuage de points à l’aide d’un diagramme de dispersion.</p>
 <div class="cell docutils container">
@@ -1316,7 +1324,7 @@ Afin de comparer les deux algorithmes, nous considérons le temps pris par chacu
 <p>Quelles sont vos conclusions ?</p>
 </section>
 <section id="exercice-5">
-<h2><span class="section-number">4.6. </span>Exercice 5<a class="headerlink" href="#exercice-5" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">12.6. </span>Exercice 5<a class="headerlink" href="#exercice-5" title="Link to this heading">#</a></h2>
 <p>Enfin, nous traçons ces clusters en 3D. Testez le graphique suivant avec différentes images et différents nombres de clusters.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1462,7 +1470,7 @@ Afin de comparer les deux algorithmes, nous considérons le temps pris par chacu
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">3. </span>TP 2</p>
+        <p class="prev-next-title"><span class="section-number">3. </span>TP 1</p>
       </div>
     </a>
     <a class="right-next"
@@ -1490,12 +1498,12 @@ Afin de comparer les deux algorithmes, nous considérons le temps pris par chacu
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectifs">4.1. Objectifs</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1">4.2. Exercise 1 [★]</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-2">4.3. Exercice 2 [★]</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-3">4.4. Exercice 3 [★★]</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4">4.5. Exercise 4 [★★]</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-5">4.6. Exercice 5</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectifs">12.1. Objectifs</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1">12.2. Exercise 1 [★]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-2">12.3. Exercice 2 [★]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-3">12.4. Exercice 3 [★★]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-4">12.5. Exercise 4 [★★]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercice-5">12.6. Exercice 5</a></li>
 </ul>
   </nav></div>
 
