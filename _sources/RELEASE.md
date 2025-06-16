@@ -1,5 +1,17 @@
 # RELEASE notes
 
+# v1.2
+===============================================================================
+- Correct errors
+- Correct path
+- Add and update descriptions
+- Remove Jupterlite workflow
+- Update exercices with questions
+- Update exercises
+- Update Project
+- Update code changes related to new versions
+
+
 # v1.1
 ===============================================================================
 - Indent code using black
