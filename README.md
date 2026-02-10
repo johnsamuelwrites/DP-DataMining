@@ -1,6 +1,8 @@
 # DP-DataMining
 Digitalisation des procédés: Data Mining
 
+Les travaux pratiques et le projet utilisent des données et des exemples issus du domaine de la chimie et du génie des procédés (composés chimiques, propriétés thermodynamiques, données de réacteurs, production chimique, etc.).
+
 ## Sujets de travaux pratiques et projet
 - [Installation](installation.ipynb)
 - [TP 1 : Notebook Jupyter 1](TP1/tp1.ipynb)
