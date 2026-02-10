@@ -108,52 +108,46 @@ This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 Intern
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
+    <g
      transform="translate(0,-308.26772)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.19384766px;line-height:125%;font-family:Arial;FreeSans;-inkscape-font-specification:FreeSans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#1b80cf;fill-opacity:1;stroke:none;stroke-width:1.80484641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="522.85114"
-       y="592.33954"
-       id="text9421"><tspan
-         sodipodi:role="line"
-         id="tspan9419"
-         x="566.16742"
-         y="592.33954"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:346.53048706px;font-family:Arial;FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#1b80cf;fill-opacity:1;stroke-width:1.80484641px">Data </tspan><tspan
-         sodipodi:role="line"
-         x="522.85114"
-         y="682.58185"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:346.53048706px;font-family:Arial;FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#1b80cf;fill-opacity:1;stroke-width:1.80484641px"
-         id="tspan9467" /><tspan
-         sodipodi:role="line"
-         x="522.85114"
-         y="772.82416"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:346.53048706px;font-family:Arial;FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#1b80cf;fill-opacity:1;stroke-width:1.80484641px"
-         id="tspan9469" /><tspan
-         sodipodi:role="line"
-         x="522.85114"
-         y="945.36743"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:346.53048706px;font-family:Arial;FreeSans;-inkscape-font-specification:FreeSans;text-align:center;text-anchor:middle;fill:#1b80cf;fill-opacity:1;stroke-width:1.80484641px"
-         id="tspan9471">Mining</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:125%;font-family:Arial;sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="485.19037"
-       y="651.77435"
-       id="text9463"><tspan
-         sodipodi:role="line"
-         id="tspan9461"
-         x="485.19037"
-         y="684.95306"
-         style="stroke-width:0.9375px" /><tspan
-         sodipodi:role="line"
-         x="485.19037"
-         y="731.82806"
-         style="stroke-width:0.9375px"
-         id="tspan9465" /></text>
+    <rect
+       id="bg"
+       x="176"
+       y="404"
+       width="700.3622"
+       height="500"
+       rx="40"
+       ry="40"
+       style="fill:#f6f7fb;fill-opacity:1;stroke:none" />
+    <g id="logo" style="stroke-linecap:round;stroke-linejoin:round">
+      <g id="flask" style="fill:none;stroke:#2a9d8f;stroke-width:14">
+        <path d="M420,470 L420,575" />
+        <path d="M380,575 L420,655 L460,575" />
+        <path d="M360,575 L420,705 L480,575" />
+      </g>
+      <path d="M390,605 L450,605 L435,655 L405,655 Z" style="fill:#2a9d8f;fill-opacity:0.9;stroke:none" />
+      <g id="nodes" style="fill:#e76f51;stroke:#e76f51;stroke-width:8">
+        <circle cx="540" cy="520" r="16" />
+        <circle cx="620" cy="560" r="16" />
+        <circle cx="580" cy="640" r="16" />
+      </g>
+      <g id="links" style="fill:none;stroke:#e76f51;stroke-width:10">
+        <path d="M540,520 L620,560 L580,640 Z" />
+      </g>
+      <g id="chart" style="fill:none;stroke:#264653;stroke-width:12">
+        <path d="M700,700 L700,540 L820,540" />
+        <path d="M700,700 L820,700" />
+      </g>
+      <g id="line" style="fill:none;stroke:#264653;stroke-width:10">
+        <path d="M710,670 L745,610 L780,640 L815,575" />
+        <circle cx="710" cy="670" r="6" style="fill:#264653;stroke:#264653;stroke-width:6" />
+        <circle cx="745" cy="610" r="6" style="fill:#264653;stroke:#264653;stroke-width:6" />
+        <circle cx="780" cy="640" r="6" style="fill:#264653;stroke:#264653;stroke-width:6" />
+        <circle cx="815" cy="575" r="6" style="fill:#264653;stroke:#264653;stroke-width:6" />
+      </g>
+    </g>
   </g>
 </svg>

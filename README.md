@@ -1,5 +1,5 @@
 # DP-DataMining
-Digitalisation des procédés: Data Mining
+Digitalisation des procédés : Data Mining
 
 Les travaux pratiques et le projet utilisent des données et des exemples issus du domaine de la chimie et du génie des procédés (composés chimiques, propriétés thermodynamiques, données de réacteurs, production chimique, etc.).
 

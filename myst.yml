@@ -1,0 +1,37 @@
+version: 1
+project:
+  title: Digitalisation des procédés : Data Mining
+  authors:
+    - name: John Samuel
+  copyright: '2021'
+  exclude:
+    - _build
+    - Thumbs.db
+    - .DS_Store
+    - '**.ipynb_checkpoints'
+  github: johnsamuelwrites/DP-DataMining
+  thebe:
+    binder:
+      repo: johnsamuelwrites/DataMining
+      provider: github
+      url: https://mybinder.org
+      ref: master
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: README.md
+    - title: Travaux pratiques
+      children:
+        - file: README.md
+        - file: TP1/tp1.ipynb
+        - file: TP2/tp2.ipynb
+        - file: TP3/tp3.ipynb
+        - file: Projet.md
+        - file: examples/Examples.ipynb
+site:
+  options:
+    logo: datamining.svg
+    folders: true
+  template: book-theme
