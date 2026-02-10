@@ -1,6 +1,6 @@
-version: 1
+﻿version: 1
 project:
-  title: Digitalisation des procédés : Data Mining
+  title: "Digitalisation des procédés : Data Mining"
   authors:
     - name: John Samuel
   copyright: '2021'
@@ -29,7 +29,6 @@ project:
         - file: TP2/tp2.ipynb
         - file: TP3/tp3.ipynb
         - file: Projet.md
-        - file: examples/Examples.ipynb
 site:
   options:
     logo: datamining.svg
